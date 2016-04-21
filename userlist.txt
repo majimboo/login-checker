@@ -1,0 +1,4 @@
+invalid@test.com:wrong
+username:password
+e@mail.com:password
+rdcruz_md@mac.com:ravc6694
