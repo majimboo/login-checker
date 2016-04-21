@@ -1,3 +1,4 @@
 # login-checker
 
-`pip install mechanize`
+    pip install mechanize
+    python checker.py
