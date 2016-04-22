@@ -1,4 +1,4 @@
 # login-checker
 
-    pip install mechanize
-    python checker.py
+    pip install robobrowser
+    python checker.py 5
