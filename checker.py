@@ -23,7 +23,7 @@ def check(user, section):
     user = user.split(':')
     print 'checking [%s] %s' % (section, user[0])
 
-    br = RoboBrowser(timeout=30, parser='lxml')
+    br = RoboBrowser(timeout=30, parser='html')
     br.open(config.get(section, 'url'))
 
     form = br.get_form(id=config.get(section, 'form_id'))
